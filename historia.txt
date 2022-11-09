@@ -5,3 +5,5 @@ Mateo tiene 25 años y nacio en Medellín, Colombia
 Hoy hablaremos de su historia
 
 Mide 1.78 m
+
+Hoy estudia Front End dev en Platzi

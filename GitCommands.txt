@@ -21,5 +21,8 @@ git show nombreArchivo => cambios en un archivo. Muestra:
 - Indicador de bites que cambiaron y su posicion
 - Cambios que se hicieron en el archivo
 
-Si doy un commit sin un mensaje me envia a una ventana donde me pide que de el mensaje. Para salirme de ahi: esc + shift + zz
+Si doy un commit sin un mensaje me envia a una ventana donde me pide que de el mensaje:
+- Para escribir un mensaje: esc + i
+- Para salirme de ahi: esc + shift + zz
 
+git diff numeroIidicadorDeCommit1 numeroIidicadorDeCommit2 => compara ambos commits
