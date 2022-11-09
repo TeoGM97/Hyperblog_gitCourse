@@ -1,3 +1,10 @@
 git init => Inicia git en la carpeta en la que estoy.
 git status => muestra el estado de git en el momento
 git add nombreArchivo => agrega un archivo a git
+git rm nombreArchivo => elimina un archivo de git pero sin la ram
+git rm --cached nombreArchivo => elimina el archivo por completo con el cache en ram
+git commit => Envia los cambios al repositorio (mala practica, se debe dejar un mensaje)
+git commit -m "mensaje" => cambios al repositorio con mensaje
+git config => configuraciones de git
+git config --list => configuraciones en lista con su valor
+
