@@ -10,4 +10,16 @@ git config --list => configuraciones en lista con su valor
 git config --list --show-origin => Muesta donde estan las configuraciones guardadas
 git config --global user.name "Nombre" => Cambia la configuracion del nombre en git
 (doble guion significa que vamos a usar una palabra completa, uno solo que se va a usar la forma corta como ls o rm)
+git log nombreArchivo => muestra la historia de este archivo. Los numeros son el tag o nombre de esa modificacion. Muestra version, rama, autor, fecha, nombre del commit y los demas historiales
+
+git show nombreArchivo => cambios en un archivo. Muestra:
+- el ultimo commit, su ID, HEAD y la rama
+- Autor y fecha
+- Mensaje del commit
+- diff: version anterior vs version nueva
+- version a y version b.
+- Indicador de bites que cambiaron y su posicion
+- Cambios que se hicieron en el archivo
+
+Si doy un commit sin un mensaje me envia a una ventana donde me pide que de el mensaje. Para salirme de ahi: esc + shift + zz
 
