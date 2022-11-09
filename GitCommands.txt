@@ -1,0 +1,3 @@
+git init => Inicia git en la carpeta en la que estoy.
+git status => muestra el estado de git en el momento
+git add nombreArchivo => agrega un archivo a git
