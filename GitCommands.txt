@@ -27,3 +27,6 @@ Si doy un commit sin un mensaje me envia a una ventana donde me pide que de el m
 
 git diff numeroIidicadorDeCommit1 numeroIidicadorDeCommit2 => compara ambos commits
 git reset --hard numeroIidicadorDeCommit => Vuelve completamente a esa version. Si damos git log en ese momento, veremos que literalmente todo lo que habiamos hecho despues de ese commit.
+git checkout numeroIidicadorDeCommit nombreArchivo => Me cambia ese archivo por esa version, pero sin guardarse, solo lo muestra. (OJO! NO HACER COMMIT SI NO SE QUIERE HACER PERMANENTE ESE CAMBIO)
+git checkout master nombreArchivo => Vuelve a la version mas reciente del archivo
+
