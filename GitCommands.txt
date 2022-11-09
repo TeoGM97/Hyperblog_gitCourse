@@ -26,3 +26,4 @@ Si doy un commit sin un mensaje me envia a una ventana donde me pide que de el m
 - Para salirme de ahi: esc + shift + zz
 
 git diff numeroIidicadorDeCommit1 numeroIidicadorDeCommit2 => compara ambos commits
+git reset --hard numeroIidicadorDeCommit => Vuelve completamente a esa version. Si damos git log en ese momento, veremos que literalmente todo lo que habiamos hecho despues de ese commit.

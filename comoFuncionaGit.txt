@@ -1,3 +1,4 @@
+FLUJO DE TRABAJO:
 Cuando doy git init en una carpeta, se crea la carpeta .git y se crea el estado de staging (area de memoria RAM)
 Cuando doy git add a un archivo, pasa a estar en un estado de staging y luego commit para que quede en el repositorio que tiene un nombre por defecto: Master
 Staging es la memoria ram o estado temporal donde estan los archivos antes de hacerles el commit.
@@ -12,3 +13,4 @@ A veces es necesario crear otra rama que sale de alguna de las versiones para re
 Tambien hay a veces ramas que se crean para la solucion de bugs(bug fixing o hot fix). Luego de crear la solucion, se puede reconectar con la rama actual, lo que se conoce como un merge.
 Si quiero agregar cambios hechos en otras ramas a otras, se llama merge tambien.
 Se pueden tener tantas ramas y repositorios como quiera.
+
