@@ -26,8 +26,12 @@ Si doy un commit sin un mensaje me envia a una ventana donde me pide que de el m
 - Para salirme de ahi: esc + shift + zz
 
 git diff numeroIidicadorDeCommit1 numeroIidicadorDeCommit2 => compara ambos commits
+git reset => (FALTA FLAG) Volver al pasado sin posibilidad de volver al futuro.
 git reset --hard numeroIidicadorDeCommit => Vuelve completamente a esa version. Si damos git log en ese momento, veremos que literalmente todo lo que habiamos hecho despues de ese commit.
 git reset --soft numeroIidicadorDeCommit => Volvemos a la version anterior pero lo que tengamos en staging queda en staging, solo que en el directorio de trabajo, cambia.
+git checkout => (FALTA FLAG) Permite basicamente volver en el tiempo, pasear, mirar y volver.
 git checkout numeroIidicadorDeCommit nombreArchivo => Me cambia ese archivo por esa version, pero sin guardarse, solo lo muestra. (OJO! NO HACER COMMIT SI NO SE QUIERE HACER PERMANENTE ESE CAMBIO)
 git checkout master nombreArchivo => Vuelve a la version mas reciente del archivo
-
+git rm => (FALTA FLAG) Nos ayuda a eliminar archivos de git sin eliminar su historial del sistema de versiones.
+gir rm --cached => Elimina los archivos del reertorio local y staging, pero los mantiene en el disco duro. Git deja de tackear el historial de cmaibos de estos archivos (Untracked)
+git rm --force => Elimina los archivos de git y del disco duro. Mas adelante se podrían recuperar con comandos mas avanzados si se necesita
