@@ -14,3 +14,6 @@ Tambien hay a veces ramas que se crean para la solucion de bugs(bug fixing o hot
 Si quiero agregar cambios hechos en otras ramas a otras, se llama merge tambien.
 Se pueden tener tantas ramas y repositorios como quiera.
 
+Cuando se trabaja con un equipo, se neceita un servidor remoto. Git Hub por ejemplo) cuando el commit se hace, se hace un git push para envairlo a este servidor remoto.
+Si quiero traer una actualizacion, hago un git fetch para traer al repositorio local. PAra que me copie todo en mis archivos, hago git merge.
+Hay un comando que fusiona ambos conceptos que es git pull
