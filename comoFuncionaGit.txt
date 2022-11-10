@@ -17,3 +17,5 @@ Se pueden tener tantas ramas y repositorios como quiera.
 Cuando se trabaja con un equipo, se neceita un servidor remoto. Git Hub por ejemplo) cuando el commit se hace, se hace un git push para envairlo a este servidor remoto.
 Si quiero traer una actualizacion, hago un git fetch para traer al repositorio local. PAra que me copie todo en mis archivos, hago git merge.
 Hay un comando que fusiona ambos conceptos que es git pull
+
+Cuando se crea una rama, es crear una copia del ultimo commit en otro lado y todos los cambios en esta rama no se veran en la master hasta hacer el merge
