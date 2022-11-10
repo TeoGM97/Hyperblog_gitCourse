@@ -35,3 +35,7 @@ git checkout master nombreArchivo => Vuelve a la version mas reciente del archiv
 git rm => (FALTA FLAG) Nos ayuda a eliminar archivos de git sin eliminar su historial del sistema de versiones.
 gir rm --cached => Elimina los archivos del reertorio local y staging, pero los mantiene en el disco duro. Git deja de tackear el historial de cmaibos de estos archivos (Untracked)
 git rm --force => Elimina los archivos de git y del disco duro. Mas adelante se podrían recuperar con comandos mas avanzados si se necesita
+
+git commit -am "mensaje" => git add + git commit -am
+git branch nombreBranch => crea una rama
+git checkout nombreBranch => Me muevo a la nueva rama
